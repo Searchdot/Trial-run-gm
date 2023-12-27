@@ -1,1 +1,245 @@
+
+
+import hashlib
+
+api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+
+# Concatenate the session ID and timestamp
+concatenate_str = 'session_id' + timestamp
+
+# Generate a hash value from the concatenated string
+hash_value = hashlib.md5(concatenate_str.encode()).hexdigest()
+
+# Use the first 8 characters of the hash value as the tracker code
+tracker_code = hash_value[:8]
+
+print("Tracker Code:", tracker_code)
+
+
+
+#```python
+import hashlib
+
+api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+
+
+#Now you can proceed with generating the tracker code using the code snippet you provided earlier:
+
+#```python
+
+tracker_code = hash_value[:8]
+
+print("Tracker Code:", tracker_code)
+
+
+
+#This will generate a unique tracker code based on the session ID and timestamp you provided.
+
+#```python
+import hashlib
+
+api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+
+data = api_key + ip_address + user_agent + timestamp
+hash_value = hashlib.md5(data.encode()).hexdigest()
+tracker_code =  hash_value[:8]
+
+print("Tracker Code:", tracker_code)
+
+#This code concatenates the API key, IP address, user agent, and timestamp together and generates a unique tracker code using SHA256 hashing. The tracker code is then printed as output.
+
+
+import requests
+
+def track_session(ip_address):
+    api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+{
+        "ip_address": ip_address,
+        "api_key": api_key
+    }
+response = 'requests_post'
+print('url')
+print("Session tracked successfully!")
+print("Failed to track session.")
+
+# Usage: 
+track_session("api_BF4nb5rv09L3JoukcEavoSavQfoCioY8")
+
+(track_session)
+
+
+print(hash_value)
+print(data)
+print (requests)
+print(hashlib)
+print(print)
+print(compile)
+print(hash)
+print(hex)
+print('status')
+
+
+'requests' 'usr/lib/requests'
+
+import hashlib
+
+api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+
+# Concatenate the session ID and timestamp
+concatenate_str = 'session_id' + timestamp
+
+# Generate a hash value from the concatenated string
+hash_value = hashlib.md5(concatenate_str.encode()).hexdigest()
+
+# Use the first 8 characters of the hash value as the tracker code
+tracker_code = hash_value[:8]
+
+print("Tracker Code:", tracker_code)
+
+
+
+#```python
+import hashlib
+
+api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+
+
+#Now you can proceed with generating the tracker code using the code snippet you provided earlier:
+
+#```python
+
+tracker_code = hash_value[:8]
+
+print("Tracker Code:", tracker_code)
+
+
+
+#This will generate a unique tracker code based on the session ID and timestamp you provided.
+
+#```python
+import hashlib
+
+api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+
+data = api_key + ip_address + user_agent + timestamp
+hash_value = hashlib.md5(data.encode()).hexdigest()
+tracker_code =  hash_value[:8]
+
+print("Tracker Code:", tracker_code)
+
+#This code concatenates the API key, IP address, user agent, and timestamp together and generates a unique tracker code using SHA256 hashing. The tracker code is then printed as output.
+
+
+import requests
+
+def track_session(ip_address):
+    api_key = "api_BF4nb5rv09L3JoukcEavoSavQfoCioY8"
+device_type = 'Android_Pixel3a_12'
+id_user = "+526645908503"
+ip_address = "58:cb:52:9e:75:58"
+imei = '359677099714844'
+user_agent = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36"
+timestamp = "2023-12-22 12:48:08"
+{
+        "ip_address": ip_address,
+        "api_key": api_key
+    }
+response = 'requests_post'
+print('url')
+print("Session tracked successfully!")
+print("Failed to track session.")
+
+# Usage: 
+track_session("api_BF4nb5rv09L3JoukcEavoSavQfoCioY8")
+
+(track_session)
+
+
+print(hash_value)
+print(data)
+print (requests)
+print(hashlib)
+print(print)
+print(compile)
+print(hash)
+print(hex)
+print('status')
+
+
+'requests' 'usr/lib/requests'
+
+'hashlib' '/usr/lib/py/hashlib'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://geo.ipify.org/api/v2/country,city,vpn?apiKey=YOUR_API_KEY&ipAddress=8.8.8.8
